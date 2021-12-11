@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(255, 208, 0, 0.329);
+}
+
+.container h1{
+    text-shadow: 1px 1px 2px black;
+}
+
+.container{
+    margin-top: 8em;
+    margin-left: 7em;
+    margin-right: 7em;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    background-color: coral;
+    justify-content: center;
+    padding-bottom: 2em;
+    max-width: 100%;
+    box-shadow: 1px 1px 6px black;
+
+}
+
+.container h1{
+    font-size: 3em;
+    
+}
+
+.container-options button{
+    font-size: 1.5em;
+    box-shadow: 2px 5px 5px black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#timecont{
+    font-size: 3em;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+@media (max-width: 550px){
+    .container{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+}
+
